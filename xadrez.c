@@ -42,14 +42,14 @@ int main() {
 
     // Implementando a movimentação do cavalo
     int movCavalo = 1;
-    int j = 1;
+    int cont2 = 1;
     printf("\nCAVALO:\n");
-    for (int i = 1; i <= movCavalo; i++) {
-        printf("Baixo...Baixo...");
-        while (j <= i) {
-            printf("Esquerda(parou)\n");
-            j++;
+    while(cont2 <= movCavalo) {
+        for (int i = 0; i < 2; i++) {
+            printf("Baixo...\n");
         }
+        cont2++;
+        printf("Esquerda(parou)\n");
     }
 
     return 0;
